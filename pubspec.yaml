@@ -1,6 +1,6 @@
 name: responsive_size_extension
 description: A Flutter package that will make your size responsive base on device orientation and scale text font size.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Van-They/responsive_size_extension
 repository: https://github.com/Van-They/responsive_size_extension
 
