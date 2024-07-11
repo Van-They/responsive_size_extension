@@ -11,29 +11,28 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package that will make your size responsive base on device orientation and scale text font size
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- scale any value base on screen size
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add ```responsive_size_extention``` to your pubspec.yaml before using.
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
+to use plugin add ```responsive_size_extention``` as you dependacy.
 ```dart
-const like = 'sample';
+Container(
+    width: 10.scale,//this will scale the given value base on screen
+    height: 10.scale,
+    child: Text("Vanthey",style:TextStyle(fontSize:14.scale),
+    )
+)
 ```
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+A Flutter package that will make your size responsive base on device orientation and scale text font size.
+for more information please check at https://github.com/Van-They/responsive_size_extension.git
